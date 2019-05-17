@@ -1,0 +1,51 @@
+HTTP/1.1 200 OK
+Content-Type: application/json; charset=utf-8
+
+[
+  {
+    "id": 1,
+    "user": {
+      "id": 1,
+      "name": "Flavio",
+      "lastName": "Pérez"
+    },
+    "code": "OF-01",
+    "date": "2019-05-13T00:00:00.000Z",
+    "createdAt": "2019-05-17T15:08:26.640Z",
+    "lines": [
+      { "article": "HuauHuawei P20 Lite 64GB Negro Libre", "price": 225.89, "quantity": 1 }
+    ],
+    "total": 225.89
+  },{
+    "id": 2,
+    "user": {
+      "id": 3,
+      "name": "Octavio",
+      "lastName": "Ramirez"
+    },
+    "code": "OF-02",
+    "date": "2019-05-19T00:00:00.000Z",
+    "createdAt": "2019-05-17T15:08:26.640Z",
+    "lines": [
+      { "article": "Gigabyte GV-RX580GAMING-8GD", "price": 200.20, "quantity": 1 },
+      { "article": "G.Skill Trident Z RGB DDR4 3200 PC4-25600 16GB 2x8GB CL16", "price": 130.05, "quantity": 2 },
+      { "article": "Procesador AMD Ryzen 7 2700 4.1 Ghz", "price": 235.20, "quantity": 1 }
+    ],
+    "total": 695.5
+  },{
+    "id": 3,
+    "user": {
+      "id": 2,
+      "name": "Héctor",
+      "lastName": "Peña"
+    },
+    "code": "OF-03",
+    "date": "2019-05-11T00:00:00.000Z",
+    "createdAt": "2019-05-17T15:08:26.640Z",
+    "lines": [
+      { "article": "Xiaomi Mi Air 13.3", "price": 699.20, "quantity": 1 },
+      { "article": "Huawei P20 Lite 64GB Azul Libre", "price": 189, "quantity": 1}
+    ],
+    "total": 888.2
+  }
+]

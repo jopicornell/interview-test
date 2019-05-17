@@ -1,0 +1,13 @@
+<mat-toolbar color="primary">
+  <span>Mi tienda informática</span>
+  <div class="example-spacer"></div>
+  <mat-menu #appMenu="matMenu">
+    <a [routerLink]="['/orders']" routerLinkActive="router-link-active" mat-menu-item>Pedidos</a>
+    <a [routerLink]="['/users']" routerLinkActive="router-link-active" mat-menu-item>Usuarios</a>
+  </mat-menu>
+
+  <button mat-icon-button [matMenuTriggerFor]="appMenu">
+    <mat-icon>more_vert</mat-icon>
+  </button>
+</mat-toolbar>
+<router-outlet></router-outlet>
